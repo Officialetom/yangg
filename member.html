@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/date.js" defer></script>
+    <link rel="stylesheet" href="./who/who.css">
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <title>Member | YANNG</title>
+</head>
+<body>
+    <!-- navbar section starts here -->
+    <div class="navbar">
+        <div class="nav-top">
+            <div class="logo-div">
+                <a href="./"><img src="./images/logo.png" alt="yanng-img" class="logo"></a> 
+                <h3>Young African Network for Global Goals</h3>
+                <span class="display primary">YANGG</span>
+            </div>
+            <div class="cdown">
+                <form action="" class="search">
+                    <input type="search" name="search" id="search" placeholder="Search Events...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <nav class="navlinks">
+            <div class="navlinks-container" id="navlinks-container">
+                <div class="display default">
+                    <p>MENU</p>
+                    <div class="toggle">
+                        <i class="toggle-btn" id="toggle-btn">
+                            <span class="btn"></span>
+                            <span class="btn"></span>
+                            <span class="btn"></span>
+                        </i>
+                    </div>
+                </div>
+                <div class="links-item">
+                    <a href="./">Home</a>
+                    <a href="./who/">Who We Are</a>
+                    <a href="./gallery/">Gallery</a>
+                    <a href="./events/">Events</a>
+                    <a href="./contact.html" >Contact Us</a>
+                    <a href="./member.html" class="btn-active">Become a Member</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar section ends here -->
+    <!-- who we are banner -->
+    <div class="who-we-are-contact">
+        <div class="who-we-are-container">
+            <div class="who-we-are-item">
+                <h2>Become a Member</h2>
+                <h5>Young Africa Network for Global Goals</h5>
+            </div>
+            <div class="who-we-are-item">
+                <a href="../" class="btn-blue" style="display: flex; align-items: center;"><i class="fa fa-arrow-left" style="margin-right: 10px;"></i> Back</a>
+            </div>
+        </div>
+    </div>
+    <!-- contact us section -->
+    <div class="contact-us">
+        <span><i class="fa fa-home"></i> <span style="color:#fd264a;">Home </span> / Become a Member </span>
+        <div class="contact-us-container">
+            <div class="member-item">
+                <h2>Member Form</h2>
+                <form action="" class="contact-form">
+                    <div class="form-div">
+                        <input type="text" name="contact-name" id="cname" placeholder="Full name" required>
+                        <input type="email" name="contact-email" id="cemail" placeholder="Email" required>
+                        <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+                        <input list="country" name="country" id="count" placeholder="Select Country" required>
+                        <datalist id="country">
+                            <option value="Algeria"></option>
+                            <option value="Angola"></option>
+                            <option value="Benin"></option>
+                            <option value="Botswana"></option>
+                            <option value="Burkina Faso"></option>
+                            <option value="Burundi"></option>
+                            <option value="Cabo Verde"></option>
+                            <option value="Cameroon"></option>
+                            <option value="Central African Republic (CAR)"></option>
+                            <option value="Chad"></option>
+                            <option value="Comoros"></option>
+                            <option value="Congo, Democratic Republic of the"></option>
+                            <option value="Congo, Republic of the"></option>
+                            <option value="Cote d'Ivoire"></option>
+                            <option value="Dijibouti"></option>
+                            <option value="Egypt"></option>
+                            <option value="Equatorial Guinea"></option>
+                            <option value="Eritrea"></option>
+                            <option value="Eswatini"></option>
+                            <option value="Ethiopia"></option>
+                            <option value="Gabon"></option>
+                            <option value="Gambia"></option>
+                            <option value="Ghana"></option>
+                            <option value="Guinea-Bissau"></option>
+                            <option value="Kenya"></option>
+                            <option value="Lesotho"></option>
+                            <option value="Liberia"></option>
+                            <option value="Libya"></option>
+                            <option value="Madagascar"></option>
+                            <option value="Malawi"></option>
+                            <option value="Mali"></option>
+                            <option value="Mauritania"></option>
+                            <option value="Mauritius"></option>
+                            <option value="Morocco"></option>
+                            <option value="Mozambique"></option>
+                            <option value="Namibia"></option>
+                            <option value="Niger"></option>
+                            <option value="Nigeria"></option>
+                            <option value="Rwanda"></option>
+                            <option value="Sao Tome and Principe"></option>
+                            <option value="Senegal"></option>
+                            <option value="Seychelles"></option>
+                            <option value="Sierra Leone"></option>
+                            <option value="Somalia"></option>
+                            <option value="South Africa"></option>
+                            <option value="South Sudan"></option>
+                            <option value="Sudan"></option>
+                            <option value="Tanzania"></option>
+                            <option value="Togo"></option>
+                            <option value="Tunisia"></option>
+                            <option value="Uganda"></option>
+                            <option value="Zambia"></option>
+                            <option value="Zimbabwe"></option>
+                        </datalist>
+                        <div class="member-form">
+                            <h4>Are you a YANGG VOLUNTEER *</h4>
+                            <div class="mem">
+                                <input type="radio" name="volunteer" id="volunteer" class="v-yes" value="yes" required>
+                                <span>Yes</span>
+                                <input type="radio" name="volunteer" id="volunteer" class="v-not" value="no" required>
+                                <span>No</span>
+                            </div>
+                        </div>
+                        <div class="member-form">
+                            <h4>Position in YANGG</h4>
+                            <input type="text" name="position" id="position" placeholder="Position (if yes)">
+                        </div>
+                        <div class="member-form">
+                            <h4>Level of Education</h4>
+                            <select name="level" id="level">
+                                <option value="#">Select Level</option>
+                                <option value="Basic Level">Basic Level</option>
+                                <option value="Sec./High Sch. Level">Secondary/High School Level</option>
+                                <option value="Uni./Col. of Edu./Poly.">Universty/College of Edu./Polytechnic</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="member-form">
+                            <h4>What is your goal/contribution to the actualization fo SDG's in Africa? *</h4>
+                            <textarea name="" id="" placeholder="Type..." required></textarea>
+                        </div>
+                        <div class="member-form">
+                            <h4>What is your motivation to join YANGG? *</h4>
+                            <select name="motive" id="motive">
+                                <option value="#">Select</option>
+                                <option value="Network">Network</option>
+                                <option value="Building the Africa we want">Building the Africa we want</option>
+                                <option value="Volunteering Activities">Volunteering Activities</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="member-form">
+                            <h4>Do you Volunteer in any other Organization?</h4>
+                            <div class="mem">
+                                <input type="radio" name="Org" id="organization" value="yes">
+                                <span>Yes</span>
+                                <input type="radio" name="Org" id="organization" value="no">
+                                <span>No</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-btn-blue">REGISTER</button>
+                </form>
+            </div>
+            <div class="contact-us-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.9161076194655!2d8.341063473620338!3d4.953608939416024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1067877b1ab37843%3A0x11f7c4e7d2f44e98!2sHall%202%20-%20Medical%20Hostel%2C%20Unical!5e0!3m2!1sen!2sng!4v1692477698117!5m2!1sen!2sng" style="width: 100%;" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Footer start here -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="footer-item">
+                <h4>ABOUT US</h4>
+                <h5>YANGG is a conglomerate made up of young, 
+                    energetic African adolescents who are ardent 
+                    and passionate about doing thier part to advance 
+                    thier society in terms of the Sustainable 
+                    Development Goals, business growth/entrepreneurship, 
+                    and leadership development.</h5>
+            </div>
+            <div class="footer-item">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="./"><i class="fa fa-caret-right"></i> Home</a></li>
+                    <li><a href="./who/"><i class="fa fa-caret-right"></i> Who we are</a></li>
+                    <li><a href="./gallery/"><i class="fa fa-caret-right"></i> Gallery</a></li>
+                    <li><a href="./events/"><i class="fa fa-caret-right"></i> Events</a></li>
+                    <li><a href="./contact.html"><i class="fa fa-caret-right"></i> Contact Us</a></li>
+                </ul>
+                <div class="footer-s">
+                    <a href="https://web.facebook.com/yanggofficial"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/YANGG_OFFICIAL"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/yangg-global-3510501b7/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/yanggofficial_sdg/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom">
+        <span>Copyright &copy;, <span id="date"></span> YANGG</span>
+    </div>
+    <script src="./OwlCarousel/dist/jquery.min.js"></script>
+    <script src="./OwlCarousel/dist/owl.carousel.min.js"></script>
+</body>
+</html>

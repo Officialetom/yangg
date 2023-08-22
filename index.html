@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/date.js" defer></script>
+    <script src="./js/eventDate.js" defer></script>
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <title>Home | YANNG</title>
+</head>
+<body>
+    <!-- navbar section starts here -->
+    <div class="navbar">
+        <div class="nav-top">
+            <div class="logo-div">
+                <a href="./"><img src="./images/logo.png" alt="yanng-img" class="logo"></a> 
+                <h3>Young African Network for Global Goals</h3>
+                <span class="display primary">YANGG</span>
+            </div>
+            <div class="cdown">
+                <form action="" class="search">
+                    <input type="search" name="search" id="search" placeholder="Search Events...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <nav class="navlinks">
+            <div class="navlinks-container" id="navlinks-container">
+                <div class="display default">
+                    <p>MENU</p>
+                    <div class="toggle">
+                        <i class="toggle-btn" id="toggle-btn">
+                            <span class="btn"></span>
+                            <span class="btn"></span>
+                            <span class="btn"></span>
+                        </i>
+                    </div>
+                </div>
+                <div class="links-item">
+                    <a href="./" class="btn-active">Home</a>
+                    <a href="./who/">Who We Are</a>
+                    <a href="./gallery/">Gallery</a>
+                    <a href="./events/">Events</a>
+                    <a href="./contact.html">Contact Us</a>
+                    <a href="./member.html">Become a Member</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar section ends here -->
+    <!-- banner section starts here -->
+    <div class="banner">
+        <div class="banner-container">
+            <h1>Young African Network <br> for Global Goals</h1>
+            <h4>Making Africa the TREE of Life</h4>
+            <a href="./member.html" class="btn-blue">BECOME A MEMBER</a>
+        </div>
+    </div>
+    <!-- mission section starts here -->
+    <div class="mission">
+        <div class="mission-container">
+            <div class="mission-item">
+                <i class="fa fa-eye" style="font-size: 40px; color: #31a9ee;"></i>
+                <h2>Our Vision</h2>
+                <p>To raise global youth leaders who are rooted in sustainability for African transformation.</p>
+            </div>
+            <div class="mission-item">
+                <i class="fa fa-trophy" style="font-size: 40px; color: #31a9ee;"></i>
+                <h2>Our Mission</h2>
+                <p>To build a network of global leaders who are passionate about African transformation.</p>
+            </div>
+            <div class="mission-item">
+                <i class="fa fa-check-square-o" style="font-size: 40px; color: #31a9ee;"></i>
+                <h2>Our Goal</h2>
+                <p>To engage enterprising young leaders as pioneers in advocating for development within the African region.</p>
+            </div>
+        </div>
+    </div>
+    <!-- who we are section -->
+    <div class="who">
+        <div class="who-container">
+            <div class="who-item">
+                <h1>WHO WE ARE</h1>
+                <h4><b>YANGG</b> is a conglomerate made up of young, energetic African adolescents
+                who are ardent and passionate about doing thier part to advance thier society in terms
+                of the Sustainable Development Goals, business growth/entrepreneurship, and leadership development.
+                It is a network of compelling and passionate young Africans and rising future pioneers attempting
+                to effect change and create better systems in Africa by realizing global goals, as well as networks
+                aimed at reinforcing connections between young advocates of change through energized coordinated efforts.</h4>
+                <a href="./who/" class="btn-secondary">Read more..</a>
+            </div>
+            <div class="who-item">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+        </div>
+    </div>
+    <!-- news section starts -->
+    <div class="news">
+        <h2>Latest News & Events</h2>
+        <h4>Coutdown to Latest Event - <span style="color:#fd264a;">Event Name</span></h4>
+        <div class="count">
+            <div class="count-container">
+                <div class="count-item">
+                    <h4 id="days"></h4>
+                    <p>DAYS</p>
+                </div>
+                <div class="count-item">
+                    <h4 id="hours"></h4>
+                    <p>HOURS</p>
+                </div>
+                <div class="count-item">
+                    <h4 id="minutes"></h4>
+                    <p>MINUTES</p>
+                </div>
+                <div class="count-item">
+                    <h4 id="seconds"></h4>
+                    <p>SECONDS</p>
+                </div>
+            </div>
+        </div>
+        <input type="datetime-local" name="" id="datetime" value="2023-10-22 12:00:00" hidden>
+        <div class="owl-carousel news-container" id="owl-one">
+            <div class="news-item">
+                <i class="fa fa-newspaper-o" style="font-size: 30px;"></i>
+                <h4 class="text-truncate-x">News title</h4>
+                <h6><i class="fa fa-tag"></i> Category</h6>
+                <p class="text-truncate">Section of the news description</p>
+                <a href="#"><i class="fa fa-arrow-circle-right"></i> Read more...</a>
+            </div>
+            <div class="news-item">
+                <i class="fa fa-newspaper-o" style="font-size: 30px;"></i>
+                <h4 class="text-truncate-x">News title</h4>
+                <h6><i class="fa fa-tag"></i> Category</h6>
+                <p class="text-truncate">Section of the news description</p>
+                <a href="#"><i class="fa fa-arrow-circle-right"></i> Read more...</a>
+            </div>
+            <div class="news-item">
+                <i class="fa fa-newspaper-o" style="font-size: 30px;"></i>
+                <h4 class="text-truncate-x">News title</h4>
+                <h6><i class="fa fa-tag"></i> Category</h6>
+                <p class="text-truncate">Section of the news description</p>
+                <a href="#"><i class="fa fa-arrow-circle-right"></i> Read more...</a>
+            </div>
+            <div class="news-item">
+                <i class="fa fa-newspaper-o" style="font-size: 30px;"></i>
+                <h4 class="text-truncate-x">News title</h4>
+                <h6><i class="fa fa-tag"></i> Category</h6>
+                <p class="text-truncate">Section of the news description</p>
+                <a href="#"><i class="fa fa-arrow-circle-right"></i> Read more...</a>
+            </div>
+        </div>
+        <a href="./events/" class="btn-blue" style="margin: 25px auto;">Events..</a>
+    </div>
+
+    <!-- events section starts here -->
+    <div class="events">
+        <h2>Projects and Conferences</h2>
+        <div class="owl-carousel events-container" id="owl-two">
+            <div class="event-item">
+                <div class="event-img">
+                    <img src="./images/event.jpg" alt="event-img">
+                </div>
+                <div class="event">
+                    <h4 class="text-truncate-x"><a href="">Event Title</a></h4>
+                    <h6><i class="fa fa-tag"></i> Category</h6>
+                    <span><i class="fa fa-calendar"></i> 17 Aug, 2023</span>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-img">
+                    <img src="./images/event.jpg" alt="event-img">
+                </div>
+                <div class="event">
+                    <h4 class="text-truncate-x"><a href="">Event Title</a></h4>
+                    <h6><i class="fa fa-tag"></i> Category</h6>
+                    <span><i class="fa fa-calendar"></i> 17 Aug, 2023</span>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-img">
+                    <img src="./images/event.jpg" alt="event-img">
+                </div>
+                <div class="event">
+                    <h4 class="text-truncate-x"><a href="">Event Title</a></h4>
+                    <h6><i class="fa fa-tag"></i> Category</h6>
+                    <span><i class="fa fa-calendar"></i> 17 Aug, 2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery section -->
+    <div class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="owl-carousel gallery-container" id="owl-four">
+            <div class="gallery-item">
+                <img src="./images/photo1.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="./images/photo2.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="./images/photo3.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="./images/photo4.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="./images/photo5.jpg" alt="">
+            </div>
+        </div>
+        <a href="./gallery/" class="btn-blue" style="margin: 25px auto;">Gallery</a>
+    </div>
+    <!-- members section -->
+    <div class="members">
+        <i class="fa fa-globe" style="font-size: 55px; color: #31a9ee; display: flex; margin: auto;"></i>
+        <h2>Yangg Member Nations</h2>
+        <div class="owl-carousel members-container" id="owl-three">
+            <div class="mem-item">
+                <img src="./images/nigeria.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/BOTSWANA.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/Burundi.png" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/CAMEROON.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/CONGO.webp" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/GAMBIA.png" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/GHANA.png" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/KENYA.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/MOROCCO.webp" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/NAMIBIA.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/SENEGAL.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/SIERRA-LEONE.jpg" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/TOGO.png" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/UGANDA.png" alt="">
+            </div>
+            <div class="mem-item">
+                <img src="./images/zambia.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- become a partner -->
+    <div class="become">
+        <div class="become-container">
+            <h2>Partner With <span>Us</span></h2>
+            <a href="#contact" class="btn-blue">Become a Partner</a>
+        </div>
+    </div>
+    <!-- team section  -->
+    <div class="team">
+        <h2>Our Leadership Structure</h2>
+        <div class="team-container">
+            <div class="team-item">
+                <div class="teams">
+                    <img src="./images/collins.jpg" alt="">
+                </div>
+                <div class="team-detail">
+                    <div class="detail">
+                        <h5>Collins Ugochukwu Ibeawuchi</h5>
+                        <span>Global President</span>
+                    </div>
+                    <div class="detail-s">
+                        <a href="https://web.facebook.com/ibeawuchi.collins"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/ibeawuchiCollin"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/collins-ugochukwu-ibeawuchi-a4b938121/"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="teams">
+                    <img src="./images/kelechi.jpg" alt="">
+                </div>
+                <div class="team-detail">
+                    <div class="detail">
+                        <h5>Kelechi Ndieze</h5>
+                        <span>Executive Vice President West Africa</span>
+                    </div>
+                    <div class="detail-s">
+                        <a href="https://www.facebook.com/kelechi.ndieze.92"><i class="fa fa-facebook"></i></a>
+                        <a href="https://instagram.com/leaderact?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/KelechiNdieze?t=2h_mYuL1Z2y_9ym-OLiezQ&s=16"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="teams">
+                    <img src="./images/mercy.jpg" alt="">
+                </div>
+                <div class="team-detail">
+                    <div class="detail">
+                        <h5>Mercy Letshelea</h5>
+                        <span>Secretary General</span>
+                    </div>
+                    <div class="detail-s">
+                        <a href="https://www.facebook.com/mercy.sechaba"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/nnukudu?t=b-rM2cuCyEYxs2rcYkuOzA&s=09"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/mercy-letshelea-85284237"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="teams">
+                    <img src="./images/melody.jpg" alt="">
+                </div>
+                <div class="team-detail">
+                    <div class="detail">
+                        <h5>Melody Chileshe</h5>
+                        <span>Dir. of Business Dev. and Entrepreneurship</span>
+                    </div>
+                    <div class="detail-s">
+                        <a href="https://www.facebook.com/melodychilesheMB/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/melodiousmb?t=LF2ZPTCQidoHNcAZMTRTYg&s=08"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/melody-chileshe-a19179124"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- History -->
+    <div class="history">
+        <h2>Our History</h2>
+        <div class="history-container">
+            <div class="history-item">
+                <iframe src="https://youtube.come/s32391" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+            </div>
+            <div class="history-item">
+                <h3>History</h3>
+                <p>We made up of young, energetic African adolescents
+                    who are ardent and passionate about doing thier part to advance thier society in terms
+                    of the Sustainable Development Goals, business growth/entrepreneurship, and leadership development.</p>
+                <a href="./who/" class="btn-blue-r">Read More...</a>
+            </div>
+        </div>
+    </div>
+    <!-- partners -->
+    <div class="partner">
+        <h2>Our Partners</h2>
+        <div class="partner-container">
+            <div class="partner-item">
+                <img src="./images/partner-1.jpg" alt="">
+            </div>
+            <div class="partner-item">
+                <img src="./images/partner-2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- contact us section -->
+    <div class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-item">
+                <h2><span>Stay</span> with Us</h2>
+                <p>Subscribe to our Newsletter.</p>
+                <form action="" class="subscribe-form">
+                    <input type="text" name="sub-name" id="sname" placeholder="Name">
+                    <input type="email" name="sub-email" id="semail" placeholder="Email">
+                    <button type="submit" class="btn-btn-blue">LET ME IN</button>
+                </form>
+            </div>
+            <div class="contact-item">
+                <h2>Send Us a <span>Message</span></h2>
+                <form action="" class="contact-form">
+                    <div class="form-div">
+                        <input type="text" name="contact-name" id="cname" placeholder="Name">
+                        <input type="email" name="contact-email" id="cemail" placeholder="Email">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-btn-blue">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer start here -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="footer-item">
+                <h4>ABOUT US</h4>
+                <h5>YANGG is a conglomerate made up of young, 
+                    energetic African adolescents who are ardent 
+                    and passionate about doing thier part to advance 
+                    thier society in terms of the Sustainable 
+                    Development Goals, business growth/entrepreneurship, 
+                    and leadership development.</h5>
+            </div>
+            <div class="footer-item">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="./"><i class="fa fa-caret-right"></i> Home</a></li>
+                    <li><a href="./who/"><i class="fa fa-caret-right"></i> Who we are</a></li>
+                    <li><a href="./gallery/"><i class="fa fa-caret-right"></i> Gallery</a></li>
+                    <li><a href="./events/"><i class="fa fa-caret-right"></i> Events</a></li>
+                    <li><a href="./contact.html"><i class="fa fa-caret-right"></i> Contact Us</a></li>
+                </ul>
+                <div class="footer-s">
+                    <a href="https://web.facebook.com/yanggofficial"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/YANGG_OFFICIAL"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/yangg-global-3510501b7/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/yanggofficial_sdg/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom">
+        <span>Copyright &copy;, <span id="date"></span> YANGG</span>
+    </div>
+    <script src="./OwlCarousel/dist/jquery.min.js"></script>
+    <script src="./OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var news = $('#owl-one');
+            var press = $('#owl-two');
+            var mem = $('#owl-three');
+            var gal = $("#owl-four");
+            news.owlCarousel({
+            items:4,    
+            loop:true,
+            margin:15,
+            autoplay:true,
+            autoplayTimeout:3500,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                500:{
+                    items:2
+                },
+                900:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+
+        press.owlCarousel({
+            items:3,    
+            loop:true,
+            margin:25,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                900:{
+                    items:3
+                }
+            }
+        })
+        mem.owlCarousel({
+            items:5,    
+            loop:true,
+            // margin:25,
+            autoplay:true,
+            autoplayTimeout:4000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                400:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                900:{
+                    items:4
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+        gal.owlCarousel({
+            items:3,    
+            loop:true,
+            margin:25,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                400:{
+                    items:2
+                },
+                800:{
+                    items:3
+                }
+            }
+        })
+        })
+    </script>
+</body>
+</html>
